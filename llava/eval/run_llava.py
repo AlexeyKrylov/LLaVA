@@ -140,6 +140,6 @@ if __name__ == "__main__":
     parser.add_argument("--top_p", type=float, default=None)
     parser.add_argument("--num_beams", type=int, default=1)
     parser.add_argument("--max_new_tokens", type=int, default=512)
-    args = parser.parse_args()
+    # args = parser.parse_args()
 
-    eval_model(args)
+    # eval_model(args)
